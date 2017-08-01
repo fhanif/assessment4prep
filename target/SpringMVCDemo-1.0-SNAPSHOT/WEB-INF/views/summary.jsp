@@ -11,6 +11,6 @@
     <title>Summary</title>
 </head>
 <body>
-congratulations
+Hello ${name}
 </body>
 </html>

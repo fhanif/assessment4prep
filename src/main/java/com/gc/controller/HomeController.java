@@ -6,6 +6,7 @@ package com.gc.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 import java.util.Random;
 
@@ -30,6 +31,14 @@ public class HomeController {
         return new
                 ModelAndView("welcome","message",randNum);
 
+    }
+
+    @RequestMapping("/success")
+
+    public String displayName (@RequestParam("username") String username, Model model){
+
+        model.addAttribute("name",username);
+        return "summary";
     }
 
 }

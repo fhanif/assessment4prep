@@ -14,9 +14,8 @@
 
 
 <form action="/success" method="post">
-<input type="text" name="username">
-
-
+    <input type="text" name="username">
+    <input type="submit" name="submit">
 </form>
 ${message}
 <br>
