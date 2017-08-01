@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Assessment4Prep:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="Assessment4Prep-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Assessment4Prep:war exploded" />
+    </root>
+  </artifact>
+</component>
